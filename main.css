@@ -1,0 +1,241 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,700,500italic,900,700italic,900italic);
+
+
+html,
+body {
+  font-family: Roboto, sans-serif;
+  color: rgba(0,0,0,0.7);
+  background: #fafafa;
+  margin: 0;
+  padding: 0
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+  -webkit-font-smoothing: antialiased;
+  font: 300 16px / 1.5 "Roboto", arial, sans-serif;
+}
+
+body {
+  padding-top: 70px;
+  background-color: #EEEEEE
+
+}
+footer {
+  padding: 30px 0;
+}
+
+h1 {
+  color: #707070;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2.4rem;
+  margin: 0;
+}
+
+h2 {
+  font-size:.9rem;
+  text-align: left;
+  color:gray;
+  font-weight:400;
+  line-height: 1.250rem;
+  margin: 0;
+}
+
+/*Nav bar css*/ 
+
+#tittle {
+  font-size: 15px;
+}
+
+#hero {
+  font-size: 17px;
+  text-align: left;
+  padding: 5px 30px 5px 30px; 
+  background-color: #fafafa;
+  padding-top: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.show {
+  display: block !important;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+.invisible {
+  visibility: hidden;
+}
+
+.navbar-nav {
+  font-weight: 600;
+}
+
+.navbar-default {
+  color: white;
+  text-transform: uppercase;
+  background-color: #6D00F6;
+}
+
+.navbar-inverse {
+  background-color: #6D00F6;
+  border-color: transparent;
+  height: 68px;
+  padding-top: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.26)
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  color: white;
+  background-color: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-brand {
+  font-family: Roboto, sans-serif;
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 34px;
+  font-weight: 400;
+  color: white !important;
+  line-height: 20px;
+}
+
+.navbar-toggle {
+  border: white !important;
+}
+.navbar-toggle:focus {
+  outline: 0;
+  color: white;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white !important;
+}
+
+.navbar-inverse .navbar-text {
+  color: white !important;
+}
+
+.navbar-inverse .navbar-link {
+  color: white !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+.element {
+  .show();
+}
+.another-element {
+  .hidden();
+}
+
+/*.navbar-fixed-top {
+  margin-top: 20px;
+  position: absolute;*/
+}
+
+.navbar a, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:active {
+  font-weight: bold;
+} 
+
+/*.list-group-item  {
+  color: #34459C;
+  background-color: white
+}*/
+
+/*.list-group-item a:hover {
+  color: white;
+  background-color: #34459C
+}*/
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+  z-index: 2;
+  color: #f7ca3d;
+  background-color: #34459c;
+  border-color: #34459C;
+  text-transform: uppercase;
+}
+
+.list-group-item-heading {
+  text-align: center;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.card-color {
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+  vertical-align: top;
+  /*height: 200px;*/
+  border-radius:3px;
+  box-shadow:0 1px 2px #aaa;
+  margin:5px;
+  padding:1rem 1rem 1.5rem 1.5rem;
+  user-select:none;
+  transform-origin:top left;
+}
+
+.card {
+  display: inline-block;
+  max-width: 408px;
+  height: 216px;
+  vertical-align: top;
+  /*height: 200px;*/
+  animation:fly-in-from-left .5s 1s ease both;
+  background:white;
+  border-radius:3px;
+  box-shadow:0 1px 2px #aaa;
+  margin:5px;
+  padding:1rem 1rem 1.5rem 1.5rem;
+  user-select:none;
+  transform-origin:top left;
+}
+
+.leftof {
+  float: left;
+  padding: 0 15px 0 0;
+  max-height: 180px;
+  max-width: 134px;
+}
