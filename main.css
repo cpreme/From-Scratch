@@ -205,8 +205,8 @@ h2 {
 
 .card-color {
   display: inline-block;
-  width: 300px;
-  height: 250px;
+  width: 320px;
+  height: 350px;
   vertical-align: top;
   /*height: 200px;*/
   border-radius:3px;
@@ -235,7 +235,25 @@ h2 {
 
 .leftof {
   float: left;
-  padding: 0 15px 0 0;
-  max-height: 180px;
+  /*padding: 0 15px 0 0;*/
+  /*max-height: 180px;*/
   max-width: 134px;
 }
+
+.img-thumbnail {
+  display: inline-block;
+  /*max-width: 100%;*/
+  height: auto;
+  padding: 0px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+
+
+
+
