@@ -205,9 +205,12 @@ h2 {
 
 .card-color {
   display: inline-block;
-  width: 320px;
-  height: 350px;
+  width: 100%;
+  min-width: 320px;
+  max-width: 450px;
+  height: 256px;
   vertical-align: top;
+  background-color: white;
   /*height: 200px;*/
   border-radius:3px;
   box-shadow:0 1px 2px #aaa;
@@ -215,6 +218,7 @@ h2 {
   padding:1rem 1rem 1.5rem 1.5rem;
   user-select:none;
   transform-origin:top left;
+  color: white;
 }
 
 .card {
@@ -235,15 +239,17 @@ h2 {
 
 .leftof {
   float: left;
-  /*padding: 0 15px 0 0;*/
+  padding: 0 15px 0 0;
   /*max-height: 180px;*/
   max-width: 134px;
 }
 
 .img-thumbnail {
   display: inline-block;
+  height: 180px;
+  width: 134px;
   /*max-width: 100%;*/
-  height: auto;
+  /*height: auto;*/
   padding: 0px;
   line-height: 1.42857143;
   background-color: #fff;
@@ -254,6 +260,47 @@ h2 {
           transition: all .2s ease-in-out;
 }
 
+.button {
+  text-align: left;
+  display: inline-block;
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  /*font-family: Arial;*/
+  color: #27b3dd;
+  font-size: 13px;
+  /*background: #3498db;*/
+  padding: 10px 20px 10px 20px;
+  border: #EEEEEE 1px;
+  text-decoration: none;
+  margin-top: 10px;
+}
 
+.button:hover {
+  background: white;
+  color: #F80E5D;
+  border: #F80E5D 1px;
+  text-decoration: none;
+}
 
+.cta {
+display: inline-block;
+vertical-align: middle;
+margin-top: 10px;
+border-radius: 2px;
+color: #0078ff;
+font-size: 12px;
+text-transform: uppercase;
+text-decoration: none;
+padding: 6px;
+border: solid #0078ff 1px;
+cursor: pointer;
+}
+
+.cta:hover {
+  background: #0078ff;
+  color: white;
+  border: solid #0078ff 1px;
+  text-decoration: none;
+}
 
