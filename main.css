@@ -208,7 +208,7 @@ h2 {
   width: 100%;
   min-width: 320px;
   max-width: 450px;
-  height: 256px;
+  min-height: 256px;
   vertical-align: top;
   background-color: white;
   /*height: 200px;*/
